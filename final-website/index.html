@@ -1,7 +1,5 @@
 
 
-<head>
-
     <!-- load the head content from the head.html file -->
     
 
@@ -13,8 +11,11 @@
 <link rel="stylesheet" href="assets/css/reset.css">
 <!-- load our main stylesheet -->
 <link rel="stylesheet" href="assets/css/styles.css">
+<link rel="stylesheet" href="assets/css/scripts.js">
+
 
 <!-- you could add favicons etc here -->
+
 
 <header>
     <div class="topnav">
@@ -23,13 +24,15 @@
         <img src="https://www.husqvarna-motorcycles.com/content/dam/websites/husqvarna-motorcycles-com/language-masters/en/logo/hqvlogo140-blue.png" alt="logo"
         /></a>
         
-        <a class="active" href="Events.html">Menu</a>
-        <a href="Artists.html">Experience the brand</a>
-        <a href="ourteam.html">Our Team</a>
+        <a class="active" href="Menu.html">Athletes</a>
+        <a href="Experience the brand.html">Experience the brand</a>
+        <a href="Our Team.html">Service</a>
+        <a href="Models.html">Models</a>
         <input type="text" placeholder="Search..">
         </div>
         </div>
 </header>
+
 
 
 
@@ -46,33 +49,161 @@
             
             
 <div class="hero">
-    <h2>I am the hero title!</h2>
+    <h2></h2>
 </div>
 
 <div class="main-content">
-    <h1>Hello!</h1>
-<h2>I am your index.md file</h2>
-<p>Any content you add to this markdown file will be displayed on the homepage</p>
+    <hr>
 
 </div>
 
+<body>
+<div class="hero-image">
+  <div class="hero-text">
+    <h1>BILLY BOLT</h1>
+    <h2>WORLD CHAMPION </h2>
+  </div>
+</div>
 
+<!-- each of below sections represents an event card on the website-->    
+<div class="row">
+  <div class="column3">
+  <div class="card">
+  <img src="https://img.redbull.com/images/c_limit,w_1500,h_1000,f_auto,q_auto/redbullcom/2021/12/7/kdibyk7mwkbgzmne9ehs/toby-price-dakar-rally-2022-testing" alt="Athlete image" >
+  <div class="container">
+  <h2>Toby Price</h2>
+  <p class="title"> Motorsports</p>
+  <p> Aussie racing machine </p>
+  </div>
+  </div>
+  </div>
+  
+  
+  
+  <div class="row">
+  <div class="column3">
+  <div class="card">
+  <img src="https://iridehardenduro.com/wp-content/uploads/2018/07/graham.jarvis_ErzbergRodeo-2018_4578.jpg" alt="Athlete image">
+  <div class="container">
+  <h2>Graham Jarvis</h2>
+  <p class="title"> Enduro</p>
+  <p> Previous world No.1 </p>
+  </div>
+  </div>
+  </div>
+  
+  
+             
+  <div class="row">
+  <div class="column3">
+  <div class="card">
+  <img src="https://static.wixstatic.com/media/a2b8e5_b562d954375b473a8687b4cb0fb0c733~mv2.png/v1/fill/w_940,h_617,al_c/a2b8e5_b562d954375b473a8687b4cb0fb0c733~mv2.png" alt="Athlete image" >
+  <div class="container">
+  <h2>Johnny Walker</h2>
+  <p class="title"> Enduro</p>
+  <p> The young gun </p>
+  </div>
+  </div>
+  </div>
+  
+             
+  
+  <div class="row">
+  <div class="column3">
+  <div class="card">
+  <img src="https://transmoto.com.au/wp-content/uploads/2019/08/Manuel-Lettenbichler-753x411.jpg" alt="Athlete image" >
+  <div class="container">
+  <h2>Manuel Lettenbichler</h2>
+  <p class="title"> Hard Enduro</p>
+  <p> A rising star</p>
+  </div>
+  </div>
+  </div>
+  
+  
+  
+  
+  <div class="row">
+  <div class="column3">
+  <div class="card">
+  <img src="https://rxi.iscdn.net/2021/09/234008_tony_cairoli_trophy_ktm_450_sx-f_assen_2017.jpg" alt="Athlete image" >
+  <div class="container">
+  <h2>Antonio Cairoli</h2>
+  <p class="title"> Motocross</p>
+  <p> "Live to be Fast" </p>
+  </div>
+  </div>
+  </div>
+  
+  
+  
+  
+    </div>
+    </div>
+    </div>
+  </div>
+</div>
+</div>
+</div>
+    
+
+
+  
+ 
+<!-- below is the container for the interactive contact us section-->
+<div class="container">
+  <form action="action_page.php">
+  
+        
+  
+  <input type="text" id="fname" name="firstname" placeholder="Your name..">
+  
+        
+  <label for="lname"></label>
+  <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+  
+  <!-- for select country button-->
+  
+  <select id="country" name="country">
+  <option value="australia">Australia</option>
+  <option value="canada">Canada</option>
+  <option value="usa">USA</option>
+  </select>
+  
+        
+  <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+        
+  
+  <input type="submit" value="Submit">
+        
+  </form>
+  </div>
+</body>
+  
+  
             
         </div>
     </main>
 
     <!-- The content in this file is inserted into the base.html file -->
-<footer class="footer">
-    <div class=" ftext">
-    <p>The illustrated vehicles may vary in selected details from the production models and some illustrations feature optional equipment available at additional cost. All information concerning the scope of supply, appearance, services, dimensions and weights is non-binding and specified with the proviso that errors, for instance in printing, setting and/or typing, may occur; such information is subject to change without notice. Please note that model specifications may vary from country to country. In the case of coated surfaces, there may be colour differences due to the usual process deviations.
 
-        The consumption values stated refer to the roadworthy series condition of the vehicles at the time of factory delivery.
-    </p>
-    </div>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- load our reset stylesheet -->
+<link rel="stylesheet" href="assets/css/reset.css">
+<!-- load our main stylesheet -->
+<link rel="stylesheet" href="assets/css/styles.css">
+
+<footer>
+    <div class="ftext">
+    <p>The illustrated vehicles may vary in selected details from the production models and some illustrations feature optional equipment available at additional cost. All information concerning the scope of supply, appearance, services, dimensions and weights is non-binding and specified with the proviso that errors, for instance in printing, setting and/or typing, may occur; such information is subject to change without notice. Please note that model specifications may vary from country to country.&nbsp;In the case of coated surfaces, there may be colour differences due to the usual process deviations.<br>
+<br>
+The consumption values stated refer to the roadworthy series condition of the vehicles at the time of factory delivery.</p>
+
+</div>
+
+
     </footer>
-    
-    
-    
 
 </body>
 
