@@ -54,3 +54,31 @@ footer {
 main {
     margin-bottom: 2em;
 }
+
+.column {
+    float:center;
+    width: 40%;
+    height: auto;
+    margin-bottom: 1%;
+    margin-top: 5%;
+    margin-left: 30%;
+    padding: 0 8px;
+  }
+
+   /* Responsive layout - makes a two column-layout instead of four columns  ( Artists) */
+   @media screen and (max-width: 900px) {
+    .column {
+      width: 80%;
+      margin-left: 10%;
+      margin-bottom: 10%;
+    }
+
+    /* Display the columns below each other instead of side by side on small screens */
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+      margin-left: 0%;
+      display: block;
+    }
+  }
+}
